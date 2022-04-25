@@ -112,6 +112,18 @@ ul {
 
 .sign-up {
     display: flex;
+    background-color: #3882f9;
+    color: #f9faf8;
+    padding: 50px 150px;
+    border-radius: 10px;
+    margin: 100px;
+    gap: 300px;
+    align-items: center;
+}
+
+.sign-up .text {
+    display: flex;
+    flex-direction: column;
 }
 
 .top, .info, .quote, .sign-up {
@@ -132,10 +144,11 @@ ul {
 .sign-up-btn {
     background-color: #3882f9;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border: none;
     border-radius: 9%;
-    max-width: 80px;
+    max-width: 100px;
+    max-height: 60px;
 }
 
 .sign-up .sign-up-btn {
@@ -162,4 +175,9 @@ ul {
     margin-right: 200px;
     padding-bottom: 75px;
     border-radius: 0%;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 24px;
 }
