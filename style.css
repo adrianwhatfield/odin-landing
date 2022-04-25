@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    align-items: center;
 }
 
 .top {
@@ -55,10 +56,24 @@ body {
     color: #7f8083;
 }
 
-.quote {
+.quote-container {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding:  50px 200px;
+}
+
+.quote-container .quote {
+    font-style: italic;
+    font-weight: 100;
+    max-width: 1000px;
+    font-size: 36px;
+}
+
+.quote-container .speaker {
+    font-weight: bold;
+    text-align: right;
+    max-width: 1000px;
 }
 
 .info-header {
