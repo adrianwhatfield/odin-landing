@@ -37,7 +37,9 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     flex-shrink: 0;
-    gap: 610px;
+    gap: 100px;
+    padding-top: 50px;
+    width: 100vw;
 }
 
 .info {
@@ -155,7 +157,7 @@ ul {
 }
 
 .top-image .image {
-    width: 500px;
+    width: 700px;
     height: auto;
     margin-right: 200px;
     padding-bottom: 75px;
