@@ -48,6 +48,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 200px;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: #7f8083;
 }
 
 .quote {
@@ -127,8 +132,9 @@ ul {
 }
 
 .image {
-    width: 200px;
+    width: 250px;
     height: auto;
+    border-radius: 5%;
 }
 
 .top-image .image {
@@ -136,4 +142,5 @@ ul {
     height: auto;
     margin-right: 200px;
     padding-bottom: 75px;
+    border-radius: 0%;
 }
