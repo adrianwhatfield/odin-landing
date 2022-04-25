@@ -20,7 +20,7 @@ body {
 
 .header-logo {
     font-size: 24px;
-    margin-left: 50px;
+    margin-left: 200px;
     color: #f9faf8;
 }
 
@@ -72,9 +72,10 @@ ul {
 
 .right-links {
     margin-left: auto;
-    padding: 20px;
+    padding: 20px 0px;
     font-size: 18px;
     color: #e5e7eb;
+    margin-right: 200px;
 }  
 
 .footer {
@@ -96,6 +97,7 @@ ul {
 .hero-text {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: -30px;
 }
 
 .secondary-hero {
@@ -119,7 +121,9 @@ ul {
 .top-text {
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 200px;
+    max-width: 400px;
+    gap: 40px;
 }
 
 .image {
@@ -130,6 +134,6 @@ ul {
 .top-image .image {
     width: 500px;
     height: auto;
-    margin-right: 100px;
-    padding: 40px;
+    margin-right: 200px;
+    padding-bottom: 75px;
 }
