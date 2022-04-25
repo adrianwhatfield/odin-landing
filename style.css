@@ -121,3 +121,15 @@ ul {
     flex-direction: column;
     padding-left: 50px;
 }
+
+.image {
+    width: 200px;
+    height: auto;
+}
+
+.top-image .image {
+    width: 500px;
+    height: auto;
+    margin-right: 100px;
+    padding: 40px;
+}
