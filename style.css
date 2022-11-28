@@ -130,3 +130,10 @@ h2 {
     border:#F9FAF8 solid 2px;
     height: 40px;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px 100px;
+    text-align: center;
+}
