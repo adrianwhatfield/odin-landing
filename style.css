@@ -10,7 +10,7 @@ header {
     font-size: 24px;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 0 300px;
+    padding: 0 15%;
 }
 
 ul {
@@ -26,7 +26,7 @@ a {
 }
 
 .hero {
-    padding: 100px 300px;
+    padding: 100px 15%;
     display: flex;
     background-color: #1F2937;
     gap: 50px;
@@ -59,4 +59,37 @@ button {
     border: none;
     padding: 5px 20px;
     border-radius: 5px;
+}
+
+.information {
+    padding: 75px 15%;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    color: #6d6d6d;
 }
