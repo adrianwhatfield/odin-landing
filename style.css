@@ -93,3 +93,21 @@ h2 {
     text-align: center;
     color: #6d6d6d;
 }
+
+.quote-section {
+    padding: 75px 15%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+}
