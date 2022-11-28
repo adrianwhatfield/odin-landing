@@ -111,3 +111,22 @@ h2 {
 .author {
     align-self: flex-end;
 }
+
+.signup {
+    padding: 75px 15%;
+}
+
+.form {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.form button {
+    border:#F9FAF8 solid 2px;
+    height: 40px;
+}
